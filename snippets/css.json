@@ -1,0 +1,577 @@
+{
+    "Height 100 View Height": {
+        "prefix": "100vh",
+        "body": "height: 100vh;",
+        "description": "Set the height to 100% of the viewport height"
+    },
+    "Width 100 Viewport Width": {
+        "prefix": "100vw",
+        "body": "width: 100vw;",
+        "description": "Set the width to 100% of the viewport width"
+    },
+    "Min Height 100 Viewport Height": {
+        "prefix": "min-h-100vh",
+        "body": "min-height: 100vh;",
+        "description": "Set the minimum height to 100% of the viewport height"
+    },
+    "Height Screen": {
+        "prefix": "h-screen",
+        "body": "height: 100vh;",
+        "description": "Height 100vh"
+    },
+    "Width Screen": {
+        "prefix": "w-screen",
+        "body": "width: 100vw;",
+        "description": "Width 100vw"
+    },
+    "Min Height Screen": {
+        "prefix": "min-h-screen",
+        "body": "min-height: 100vh;",
+        "description": "Min height 100vh"
+    },
+    "Beautiful Box Shadow 1": {
+        "prefix": "get-shadow1",
+        "body": "box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;",
+        "description": "Beautiful box-shadow type 1 from getcssscan"
+    },
+    "Beautiful Box Shadow 2": {
+        "prefix": "get-shadow2",
+        "body": "box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+        "description": "Beautiful box-shadow type 2 from getcssscan"
+    },
+    "Beautiful Box Shadow 3": {
+        "prefix": "get-shadow3",
+        "body": "box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;",
+        "description": "Beautiful box-shadow type 3 from getcssscan"
+    },
+    "Beautiful Box Shadow 4": {
+        "prefix": "get-shadow4",
+        "body": "box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;",
+        "description": "Beautiful box-shadow type 4 from getcssscan"
+    },
+    "Beautiful Box Shadow 5": {
+        "prefix": "get-shadow5",
+        "body": "box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;",
+        "description": "Beautiful box-shadow type 5 from getcssscan"
+    },
+    "Center with display block": {
+        "prefix": "center-block",
+        "body": "display: block;margin: 0 auto;",
+        "description": "Center an element with display block"
+    },
+    "Center with display inline-block": {
+        "prefix": "center-inline-block",
+        "body": "display: inline-block;position: relative;left: 50%;transform: translateX(-50%);",
+        "description": "Center an element with display inline-block"
+    },
+    "Center with display inline": {
+        "prefix": "center-inline",
+        "body": "display: inline-block;position: relative;left: 50%;transform: translateX(-50%);",
+        "description": "Center with display inline-block"
+    },
+    "Center with display flex": {
+        "prefix": "center-flex",
+        "body": "display: flex;justify-content: center;align-items: center;",
+        "description": "Center an element with display flex"
+    },
+    "Center thing with flexbox": {
+        "prefix": "flex-center",
+        "body": "display: flex;justify-content: center;align-items: center;",
+        "description": "Center thing with flexbox"
+    },
+    "Center flexbox column direction": {
+        "prefix": "center-flex-column",
+        "body": "display: flex;flex-direction: column;justify-content: center;align-items: center;",
+        "description": "Center an element with flexbox column direction"
+    },
+    "Center flexbox column": {
+        "prefix": "flex-centerc",
+        "body": "display: flex;flex-direction: column;justify-content: center;align-items: center;",
+        "description": "Center flexbox column direction"
+    },
+    "Center with display grid": {
+        "prefix": "center-grid",
+        "body": "display: grid;place-items: center;",
+        "description": "Center an element with display grid"
+    },
+    "Center with css grid": {
+        "prefix": "grid-center",
+        "body": "display: grid;place-items: center;",
+        "description": "Center with css grid"
+    },
+    "Using for image when make layout row direction with flexbox": {
+        "prefix": "flex-row-image",
+        "body": "display: flex;flex-direction: row;align-items: center;",
+        "description": "Using for image when make layout row direction with flexbox"
+    },
+    "Flex image": {
+        "prefix": "flex-image",
+        "body": "display: flex;flex-direction: row;align-items: center;",
+        "description": "Using for image when make layout row direction with flexbox"
+    },
+    "Flex direction column": {
+        "prefix": "flex-column",
+        "body": "display: flex;flex-direction: column;",
+        "description": "Set the flex direction to column"
+    },
+    "Flex direction column short": {
+        "prefix": "flex-col",
+        "body": "display: flex;flex-direction: column;",
+        "description": "Flex direction column"
+    },
+    "Flex direction row": {
+        "prefix": "flex-row",
+        "body": "display: flex;flex-direction: row;",
+        "description": "Set the flex direction to row"
+    },
+    "Flexbox align items center": {
+        "prefix": "facenter",
+        "body": "display: flex;align-items: center;",
+        "description": "Flexbox align-items: center"
+    },
+    "Center top and left with position absolute": {
+        "prefix": "abs-center",
+        "body": "position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Center left with absolute": {
+        "prefix": "abs-centerx",
+        "body": "position: absolute;left: 50%;transform: translateX(-50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Center top with absolute": {
+        "prefix": "abs-centery",
+        "body": "position: absolute;top: 50%;transform: translateY(-50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Position absolute full": {
+        "prefix": "abs-full",
+        "body": "position: absolute;top: 0;left: 0;right: 0;bottom: 0;",
+        "description": "Position absolute full base on parent"
+    },
+    "Position fixed full": {
+        "prefix": "fixed-full",
+        "body": "position: fixed;top: 0;left: 0;right: 0;bottom: 0;",
+        "description": "Position fixed full"
+    },
+    "Position absolute top left": {
+        "prefix": "abs-top-left",
+        "body": "position: absolute;top: 0;left: 0;",
+        "description": "Position absolute top left"
+    },
+    "Position absolute top right": {
+        "prefix": "abs-top-right",
+        "body": "position: absolute;top: 0;right: 0;",
+        "description": "Position absolute top right"
+    },
+    "Position absolute bottom left": {
+        "prefix": "abs-bottom-left",
+        "body": "position: absolute;bottom: 0;left: 0;",
+        "description": "Position absolute bottom left"
+    },
+    "Position absolute bottom right": {
+        "prefix": "abs-bottom-right",
+        "body": "position: absolute;bottom: 0;right: 0;",
+        "description": "Position absolute bottom right"
+    },
+    "Position absolute full width": {
+        "prefix": "abs-full-width",
+        "body": "position: absolute;left: 0;right: 0;",
+        "description": "Position absolute full width"
+    },
+    "Position absolute full height": {
+        "prefix": "abs-full-height",
+        "body": "position: absolute;top: 0;bottom: 0;",
+        "description": "Position absolute full height"
+    },
+    "Absolute dropdown": {
+        "prefix": "abs-dropdown",
+        "body": "position: absolute;top: 100%;left: 0;z-index: 1000;",
+        "description": "Using when you make dropdown list absolute or dropdown menu when parent have position property"
+    },
+    "Text overflow multiple lines with three dots...": {
+        "prefix": "text-truncate",
+        "body": "display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;",
+        "description": "Text overflow multiple lines with three dots..."
+    },
+    "Text overflow single line with threed dots...": {
+        "prefix": "text-single",
+        "body": "display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;",
+        "description": "Text overflow single line with threed dots..."
+    },
+    "Useful css for text": {
+        "prefix": "text-style",
+        "body": "font-size: 16px;line-height: 1.5;color: #333;",
+        "description": "Useful css for text"
+    },
+    "Text gradient": {
+        "prefix": "text-gradient",
+        "body": "color: transparent;background-clip: text;-webkit-background-clip: text;background-image: linear-gradient( to right,  #,  #);",
+        "description": "Text gradient"
+    },
+    "Create text gradient": {
+        "prefix": "text-gradient",
+        "body": "background: linear-gradient(45deg, #ff6b6b, #4ecdc4);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;",
+        "description": "Create text gradient"
+    },
+    "Useful flexbox layout column": {
+        "prefix": "flex-layout",
+        "body": "display: flex;flex-direction: column;gap: 1rem;",
+        "description": "Useful when making flexbox layout column"
+    },
+    "Grid layout": {
+        "prefix": "grid-layout",
+        "body": "display: grid;grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));gap: 1rem;",
+        "description": "Another way to making layout fast with css grid"
+    },
+    "Overflow hidden": {
+        "prefix": "ohidden",
+        "body": "overflow: hidden;",
+        "description": "Overflow hidden"
+    },
+    "Overflow x hidden": {
+        "prefix": "xhidden",
+        "body": "overflow-x: hidden;",
+        "description": "Overflow x hidden"
+    },
+    "Overflow y hidden": {
+        "prefix": "yhidden",
+        "body": "overflow-y: hidden;",
+        "description": "Overflow y hidden"
+    },
+    "Overflow x auto": {
+        "prefix": "xauto",
+        "body": "overflow-x: auto;",
+        "description": "Overflow x auto"
+    },
+    "Overflow y auto": {
+        "prefix": "yauto",
+        "body": "overflow-y: auto;",
+        "description": "Overflow y auto"
+    },
+    "Text transform uppercase": {
+        "prefix": "uppercase",
+        "body": "text-transform: uppercase;",
+        "description": "Text transform to UPPERCASE"
+    },
+    "Text transform lowercase": {
+        "prefix": "lowercase",
+        "body": "text-transform: lowercase;",
+        "description": "Text transform to lowercase"
+    },
+    "Text transform capitalize": {
+        "prefix": "capitalize",
+        "body": "text-transform: capitalize;",
+        "description": "Text transform to Capitalize"
+    },
+    "Make text bold": {
+        "prefix": "bold",
+        "body": "font-weight: bold;",
+        "description": "Make text bold"
+    },
+    "Make text italic": {
+        "prefix": "italic",
+        "body": "font-style: italic;",
+        "description": "Make text italic"
+    },
+    "Media screen max width 1279px": {
+        "prefix": "@1279",
+        "body": "@media screen and (max-width: 1279px) {\n\t$0\n}",
+        "description": "Media screen and max width 1279px"
+    },
+    "Media screen max width 1023px": {
+        "prefix": "@1023",
+        "body": "@media screen and (max-width: 1023px) {\n\t$0\n}",
+        "description": "Media screen and max width 1023px"
+    },
+    "Media screen max width 767px": {
+        "prefix": "@767",
+        "body": "@media screen and (max-width: 767px) {\n\t$0\n}",
+        "description": "Media screen and max width 767px"
+    },
+    "Media screen min width 768px": {
+        "prefix": "@768",
+        "body": "@media screen and (min-width: 768px) {\n\t$0\n}",
+        "description": "Media screen and min width 768px"
+    },
+    "Media screen min width 1024px": {
+        "prefix": "@1024",
+        "body": "@media screen and (min-width: 1024px) {\n\t$0\n}",
+        "description": "Media screen and min width 1024px"
+    },
+    "Media screen min width 1280px": {
+        "prefix": "@1280",
+        "body": "@media screen and (min-width: 1280px) {\n\t$0\n}",
+        "description": "Media screen and min width 1280px"
+    },
+    "Media query max width": {
+        "prefix": "@max-w",
+        "body": "@media screen and (max-width: ${1:768px}) {\n\t$0\n}",
+        "description": "Media query for max-width"
+    },
+    "Media query min width": {
+        "prefix": "@min-w",
+        "body": "@media screen and (min-width: ${1:768px}) {\n\t$0\n}",
+        "description": "Media query for min-width"
+    },
+    "Media query hover": {
+        "prefix": "@hover",
+        "body": "@media (hover: hover) {\n\t$0\n}",
+        "description": "Media query for hover"
+    },
+    "Media query light mode": {
+        "prefix": "@light-mode",
+        "body": "@media (prefers-color-scheme: light) {\n\t$0\n}",
+        "description": "Media query for light mode"
+    },
+    "Media query dark mode": {
+        "prefix": "@dark-mode",
+        "body": "@media (prefers-color-scheme: dark) {\n\t$0\n}",
+        "description": "Media query for dark mode"
+    },
+    "Media query reduce animation": {
+        "prefix": "@reduce-animation",
+        "body": "@media (prefers-reduced-motion: reduce) {\n\t$0\n}",
+        "description": "Media query for reduce animation"
+    },
+    "Some useful css reset code when you start coding css": {
+        "prefix": "css-reset",
+        "body": "*,*:before,*:after {box-sizing: border-box;}* {margin: 0;padding: 0;font: inherit;}img,picture,svg,video {display: block;max-width: 100%;}input,select,textarea {background-color: transparent;outline: none;}button {cursor: pointer;background-color: transparent;outline: none;border: 0;}body {min-height: 100vh;font-weight: 400;font-size: 16px;line-height: 1;}",
+        "description": "Some useful css reset code when you start coding css"
+    },
+    "Hide scrollbar": {
+        "prefix": "scrollbar-hidden",
+        "body": "scrollbar-width: none;-ms-overflow-style: none;\n&::-webkit-scrollbar {\n\tdisplay: none;\n}",
+        "description": "Just hide scrollbar"
+    },
+    "Hide input spinner": {
+        "prefix": "input-hide-spinner",
+        "body": "&::-webkit-outer-spin-button,\n&::-webkit-inner-spin-button {\n\t-webkit-appearance: none;\n\tmargin: 0;\n}\n&[type=number] {\n\t-moz-appearance: textfield;\n}",
+        "description": "Hide input spin with input[type=\"number\"]"
+    },
+    "Input placeholder color": {
+        "prefix": "input-placeholder",
+        "body": "&::placeholder {\n\tcolor: #999;\n}",
+        "description": "Change input placeholder color"
+    },
+    "Input caret color": {
+        "prefix": "input-caret-color",
+        "body": "caret-color: #007bff;",
+        "description": "Change input caret color"
+    },
+    "Responsive image": {
+        "prefix": "img-responsive",
+        "body": "width: 100%;height: auto;aspect-ratio: 16/9;object-fit: cover;",
+        "description": "Responsive image by ratio"
+    },
+    "Image cover full": {
+        "prefix": "img-cover",
+        "body": "width: 100%;height: 100%;object-fit: cover;",
+        "description": "Image cover full"
+    },
+    "Grid scroll snap": {
+        "prefix": "grid-scroll-snap",
+        "body": "scroll-snap-type: x mandatory;overflow-x: auto;\n& > * {\n\tscroll-snap-align: start;\n}",
+        "description": "Apply css scroll snap useful when making simple slider with only css"
+    },
+    "Modal style": {
+        "prefix": "modal-style",
+        "body": "position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);display: flex;justify-content: center;align-items: center;z-index: 1000;",
+        "description": "CSS for common modal"
+    },
+    "Hide element to use transition effect later with css-show": {
+        "prefix": "css-hide",
+        "body": "opacity: 0;visibility: hidden;transition: all 0.2s ease;",
+        "description": "Hide element to use transition effect later with css-show"
+    },
+    "Show element to use transition effect later with css-show": {
+        "prefix": "css-show",
+        "body": "opacity: 1;visibility: visible;transition: all 0.2s ease;",
+        "description": "Show element to use transition effect later with css-show"
+    },
+    "CSS background linear gradient": {
+        "prefix": "linear-gradient",
+        "body": "background: linear-gradient(${1:45deg}, ${2:#ff6b6b}, ${3:#4ecdc4});",
+        "description": "CSS background linear gradient"
+    },
+    "CSS supports rule": {
+        "prefix": "@supports",
+        "body": "@supports (${1:property}: ${2:value}) {\n\t$0\n}",
+        "description": "Support rule in css for properties did not support for most browsers"
+    },
+    "CSS keyframes animation": {
+        "prefix": "@keyframes",
+        "body": "@keyframes ${1:animationName} {\n\t0% {\n\t\t$2\n\t}\n\t100% {\n\t\t$3\n\t}\n}",
+        "description": "Keyframes animation"
+    },
+    "Custom scrollbar style": {
+        "prefix": "scrollbar-style",
+        "body": "&::-webkit-scrollbar {\n\twidth: 8px;\n}\n&::-webkit-scrollbar-track {\n\tbackground: #f1f1f1;\n}\n&::-webkit-scrollbar-thumb {\n\tbackground: #888;\n\tborder-radius: 4px;\n}\n&::-webkit-scrollbar-thumb:hover {\n\tbackground: #555;\n}",
+        "description": "Custom scrollbar style"
+    },
+    "Create fast square": {
+        "prefix": "square",
+        "body": "width: ${1:100px};height: ${1:100px};",
+        "description": "Create fast square"
+    },
+    "Create fast rectangle": {
+        "prefix": "rect",
+        "body": "width: ${1:200px};height: ${2:100px};",
+        "description": "Create fast rectangle"
+    },
+    "Create fast circle": {
+        "prefix": "circle",
+        "body": "width: ${1:100px};height: ${1:100px};border-radius: 50%;",
+        "description": "Create fast circle"
+    },
+    "Make width full": {
+        "prefix": "wfull",
+        "body": "width: 100%;",
+        "description": "Make width full 100%"
+    },
+    "Make height full": {
+        "prefix": "hfull",
+        "body": "height: 100%;",
+        "description": "Make height full 100%"
+    },
+    "Make width and height full": {
+        "prefix": "sfull",
+        "body": "width: 100%;height: 100%;",
+        "description": "Make width and height full 100%"
+    },
+    "Remove tap highlight": {
+        "prefix": "tap-highlight",
+        "body": "-webkit-tap-highlight-color: transparent;",
+        "description": "Remove tap highlight color"
+    },
+    "Make text smooth": {
+        "prefix": "text-smooth",
+        "body": "-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;",
+        "description": "Make text smooth"
+    },
+    "Make scroll smooth": {
+        "prefix": "scroll-smooth",
+        "body": "scroll-behavior: smooth;",
+        "description": "Make scroll smooth"
+    },
+    "Overscroll vertical": {
+        "prefix": "overscroll-y",
+        "body": "overscroll-behavior-y: contain;",
+        "description": "Using overscroll vertical"
+    },
+    "Overscroll horizontal": {
+        "prefix": "overscroll-x",
+        "body": "overscroll-behavior-x: contain;",
+        "description": "Using overscroll horizontal"
+    },
+    "Text stroke styles": {
+        "prefix": "text-stroke",
+        "body": "-webkit-text-stroke: ${1:1px} ${2:#000};",
+        "description": "Text stroke styles"
+    },
+    "Hyphens auto": {
+        "prefix": "hyphen-auto",
+        "body": "hyphens: auto;",
+        "description": "Hyphens auto"
+    },
+    "Break word for long word": {
+        "prefix": "break-word",
+        "body": "word-break: break-word;",
+        "description": "Break word for long word"
+    },
+    "Break all for long word": {
+        "prefix": "break-all",
+        "body": "word-break: break-all;",
+        "description": "Break all for long word"
+    },
+    "Using aspect ratio number": {
+        "prefix": "ratio-number",
+        "body": "aspect-ratio: ${1:16/9};",
+        "description": "Using aspect-ratio"
+    },
+    "Using ratio with padding hacks": {
+        "prefix": "ratio-calc",
+        "body": "position: relative;width: 100%;\n&::before {\n\tcontent: '';\n\tdisplay: block;\n\tpadding-top: ${1:56.25%};\n}\n& > * {\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n}",
+        "description": "Using ratio with padding hacks"
+    },
+    "Using ratio 16/9": {
+        "prefix": "ratio-video",
+        "body": "aspect-ratio: 16/9;",
+        "description": "Using ratio with 16/9"
+    },
+    "Using ratio 1/1": {
+        "prefix": "ratio-square",
+        "body": "aspect-ratio: 1/1;",
+        "description": "Using ratio with 1/1"
+    },
+    "Background size cover": {
+        "prefix": "bg-cover",
+        "body": "background-size: cover;background-position: center;background-repeat: no-repeat;",
+        "description": "Background size cover"
+    },
+    "Object fit cover": {
+        "prefix": "object-cover",
+        "body": "object-fit: cover;",
+        "description": "Using object-fit: cover"
+    },
+    "Object fit fill": {
+        "prefix": "object-fill",
+        "body": "object-fit: fill;",
+        "description": "Using object-fit: fill"
+    },
+    "Width min content": {
+        "prefix": "w-min",
+        "body": "width: min-content;",
+        "description": "Width min-content"
+    },
+    "Width max content": {
+        "prefix": "w-max",
+        "body": "width: max-content;",
+        "description": "Width max-content"
+    },
+    "Width fit content": {
+        "prefix": "w-fit",
+        "body": "width: fit-content;",
+        "description": "Width fit-content"
+    },
+    "Center with margin": {
+        "prefix": "mx-auto",
+        "body": "margin-left: auto;margin-right: auto;",
+        "description": "Center with margin"
+    },
+    "Flex shrink 0": {
+        "prefix": "shrink0",
+        "body": "flex-shrink: 0;",
+        "description": "Using flex-shrink: 0"
+    },
+    "Make border none": {
+        "prefix": "border-none",
+        "body": "border: none;",
+        "description": "Make border none"
+    },
+    "Make outline none": {
+        "prefix": "outline-none",
+        "body": "outline: none;",
+        "description": "Make outline none"
+    },
+    "Common line height": {
+        "prefix": "leading-",
+        "body": "line-height: ${1:1.5};",
+        "description": "Common line-height"
+    },
+    "Text align": {
+        "prefix": "text-",
+        "body": "text-align: ${1:center};",
+        "description": "Text align"
+    },
+    "Cursor pointer": {
+        "prefix": "pointer",
+        "body": "cursor: pointer;",
+        "description": "Cursor pointer"
+    },
+    "Pointer events none": {
+        "prefix": "pointer-none",
+        "body": "pointer-events: none;",
+        "description": "Pointer events none"
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "HTML Menu": {
+        "prefix": "html-menu",
+        "body": [
+            "<nav class=\"menu\">",
+            "    <ul class=\"menu-list\">",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Home</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">About</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Services</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Contact</a></li>",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "Display HTML for common menu layout"
+    },
+    "HTML Dropdown": {
+        "prefix": "html-dropdown",
+        "body": [
+            "<div class=\"dropdown\">",
+            "    <button class=\"dropdown-toggle\">Dropdown</button>",
+            "    <ul class=\"dropdown-menu\">",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 1</a></li>",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 2</a></li>",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 3</a></li>",
+            "    </ul>",
+            "</div>"
+        ],
+        "description": "Display HTML for dropdown"
+    },
+    "HTML Modal": {
+        "prefix": "html-modal",
+        "body": [
+            "<div class=\"modal\" id=\"modal\">",
+            "    <div class=\"modal-overlay\"></div>",
+            "    <div class=\"modal-container\">",
+            "        <div class=\"modal-header\">",
+            "            <h3 class=\"modal-title\">Modal Title</h3>",
+            "            <button class=\"modal-close\">&times;</button>",
+            "        </div>",
+            "        <div class=\"modal-body\">",
+            "            <p>Modal content goes here</p>",
+            "        </div>",
+            "        <div class=\"modal-footer\">",
+            "            <button class=\"modal-cancel\">Cancel</button>",
+            "            <button class=\"modal-confirm\">Confirm</button>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for modal"
+    },
+    "HTML Tab": {
+        "prefix": "html-tab",
+        "body": [
+            "<div class=\"tabs\">",
+            "    <div class=\"tab-header\">",
+            "        <button class=\"tab-btn active\" data-tab=\"tab1\">Tab 1</button>",
+            "        <button class=\"tab-btn\" data-tab=\"tab2\">Tab 2</button>",
+            "        <button class=\"tab-btn\" data-tab=\"tab3\">Tab 3</button>",
+            "    </div>",
+            "    <div class=\"tab-content\">",
+            "        <div class=\"tab-pane active\" id=\"tab1\">",
+            "            <p>Tab 1 content</p>",
+            "        </div>",
+            "        <div class=\"tab-pane\" id=\"tab2\">",
+            "            <p>Tab 2 content</p>",
+            "        </div>",
+            "        <div class=\"tab-pane\" id=\"tab3\">",
+            "            <p>Tab 3 content</p>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for tab"
+    },
+    "HTML Accordion": {
+        "prefix": "html-accordion",
+        "body": [
+            "<div class=\"accordion\">",
+            "    <div class=\"accordion-item\">",
+            "        <button class=\"accordion-header\">",
+            "            Accordion Item 1",
+            "            <span class=\"accordion-icon\">+</span>",
+            "        </button>",
+            "        <div class=\"accordion-content\">",
+            "            <p>Accordion content 1</p>",
+            "        </div>",
+            "    </div>",
+            "    <div class=\"accordion-item\">",
+            "        <button class=\"accordion-header\">",
+            "            Accordion Item 2",
+            "            <span class=\"accordion-icon\">+</span>",
+            "        </button>",
+            "        <div class=\"accordion-content\">",
+            "            <p>Accordion content 2</p>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for accordion"
+    },
+    "HTML Link Wrap Image": {
+        "prefix": "html-linkwrap-img",
+        "body": [
+            "<a href=\"#\" class=\"img-link\">",
+            "    <img src=\"image.jpg\" alt=\"Image description\" class=\"img-fluid\">",
+            "</a>"
+        ],
+        "description": "Display HTML with a wrap img tag"
+    },
+    "HTML Search Form": {
+        "prefix": "html-search",
+        "body": [
+            "<form class=\"search-form\">",
+            "    <div class=\"search-input-wrapper\">",
+            "        <input type=\"search\" class=\"search-input\" placeholder=\"Search...\">",
+            "        <button type=\"submit\" class=\"search-btn\">",
+            "            <i class=\"search-icon\">🔍</i>",
+            "        </button>",
+            "    </div>",
+            "</form>"
+        ],
+        "description": "Display HTML for simple search form layout with icon"
+    },
+    "HTML Subscribe Form": {
+        "prefix": "html-subscribe-form",
+        "body": [
+            "<form class=\"subscribe-form\">",
+            "    <div class=\"form-group\">",
+            "        <input type=\"email\" class=\"form-input\" placeholder=\"Enter your email\">",
+            "        <button type=\"submit\" class=\"form-btn\">Subscribe</button>",
+            "    </div>",
+            "</form>"
+        ],
+        "description": "Display HTML for simple subscribe form layout"
+    },
+    "HTML List Item with Icon": {
+        "prefix": "html-list-item",
+        "body": [
+            "<div class=\"list-item\">",
+            "    <i class=\"list-icon\">📌</i>",
+            "    <span class=\"list-text\">List item text</span>",
+            "</div>"
+        ],
+        "description": "Display HTML for simple text with icon"
+    },
+    "HTML Footer Column": {
+        "prefix": "html-footer-column",
+        "body": [
+            "<div class=\"footer-column\">",
+            "    <h4 class=\"footer-title\">Column Title</h4>",
+            "    <ul class=\"footer-links\">",
+            "        <li><a href=\"#\">Link 1</a></li>",
+            "        <li><a href=\"#\">Link 2</a></li>",
+            "        <li><a href=\"#\">Link 3</a></li>",
+            "        <li><a href=\"#\">Link 4</a></li>",
+            "    </ul>",
+            "</div>"
+        ],
+        "description": "Display HTML for footer column with links"
+    },
+    "HTML Box Item": {
+        "prefix": "html-box-item",
+        "body": [
+            "<div class=\"box-item\">",
+            "    <div class=\"box-image\">",
+            "        <img src=\"image.jpg\" alt=\"Box image\">",
+            "    </div>",
+            "    <div class=\"box-content\">",
+            "        <h3 class=\"box-title\">Box Title</h3>",
+            "        <p class=\"box-description\">Box description text goes here</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for common layout image title & description"
+    },
+    "HTML Slick CSS": {
+        "prefix": "html-slick-css",
+        "body": [
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>",
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css\"/>"
+        ],
+        "description": "Insert Slick CSS"
+    },
+    "HTML Favicon": {
+        "prefix": "html-favicon",
+        "body": [
+            "<link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">",
+            "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">",
+            "<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">",
+            "<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">",
+            "<link rel=\"manifest\" href=\"/site.webmanifest\">"
+        ],
+        "description": "Using favicon HTML"
+    },
+    "HTML Ionicons": {
+        "prefix": "html-ionicons",
+        "body": [
+            "<script type=\"module\" src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js\"></script>",
+            "<script nomodule src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js\"></script>"
+        ],
+        "description": "Insert ionicons"
+    },
+    "HTML Slick Slider": {
+        "prefix": "html-slick-slider",
+        "body": [
+            "<script type=\"text/javascript\" src=\"//code.jquery.com/jquery-1.11.0.min.js\"></script>",
+            "<script type=\"text/javascript\" src=\"//code.jquery.com/jquery-migrate-1.2.1.min.js\"></script>",
+            "<script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>",
+            "<script>",
+            "    $(document).ready(function(){",
+            "        $('.your-class').slick({",
+            "            dots: true,",
+            "            infinite: true,",
+            "            speed: 300,",
+            "            slidesToShow: 1,",
+            "            adaptiveHeight: true",
+            "        });",
+            "    });",
+            "</script>"
+        ],
+        "description": "Insert slick slider scripts"
+    },
+    "HTML Font Awesome": {
+        "prefix": "html-fontawesome",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\" integrity=\"sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
+        ],
+        "description": "Insert fontawesome icons"
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "Console Assert": {
+        "prefix": "ca",
+        "body": "console.assert(${1:condition}, ${2:message});",
+        "description": "console.assert(condition, message)"
+    },
+    "Console Clear": {
+        "prefix": "ccl",
+        "body": "console.clear();",
+        "description": "console.clear()"
+    },
+    "Console Count": {
+        "prefix": "cc",
+        "body": "console.count(${1:label});",
+        "description": "console.count(label)"
+    },
+    "Console Count Reset": {
+        "prefix": "ccr",
+        "body": "console.countReset(${1:label});",
+        "description": "console.countReset(label)"
+    },
+    "Console Debug": {
+        "prefix": "cdb",
+        "body": "console.debug(${1:message});",
+        "description": "console.debug(message)"
+    },
+    "Console Dir": {
+        "prefix": "cd",
+        "body": "console.dir(${1:value});",
+        "description": "console.dir(value)"
+    },
+    "Console Dir XML": {
+        "prefix": "cdx",
+        "body": "console.dirxml(${1:object});",
+        "description": "console.dirxml(object)"
+    },
+    "Console Error": {
+        "prefix": "ce",
+        "body": "console.error(${1:message});",
+        "description": "console.error(message)"
+    },
+    "Console Group": {
+        "prefix": "cg",
+        "body": "console.group(${1:groupTitle});",
+        "description": "console.group(groupTitle)"
+    },
+    "Console Group Collapsed": {
+        "prefix": "cgc",
+        "body": "console.groupCollapsed(${1:groupTitle});",
+        "description": "console.groupCollapsed(groupTitle)"
+    },
+    "Console Group End": {
+        "prefix": "cge",
+        "body": "console.groupEnd();",
+        "description": "console.groupEnd()"
+    },
+    "Console Info": {
+        "prefix": "ci",
+        "body": "console.info(${1:message});",
+        "description": "console.info(message)"
+    },
+    "Console Log": {
+        "prefix": "cl",
+        "body": "console.log(${1:message});",
+        "description": "console.log(message)"
+    },
+    "Console Table": {
+        "prefix": "ctb",
+        "body": "console.table(${1:tabularData});",
+        "description": "console.table(tabularData)"
+    },
+    "Console Time": {
+        "prefix": "ct",
+        "body": "console.time(${1:label});",
+        "description": "console.time(label)"
+    },
+    "Console Time End": {
+        "prefix": "cte",
+        "body": "console.timeEnd(${1:label});",
+        "description": "console.timeEnd(label)"
+    },
+    "Console Trace": {
+        "prefix": "ctr",
+        "body": "console.trace(${1:message});",
+        "description": "console.trace(message)"
+    },
+    "Console Warn": {
+        "prefix": "cw",
+        "body": "console.warn(${1:message});",
+        "description": "console.warn(message)"
+    },
+    "Array From": {
+        "prefix": "Af",
+        "body": "Array.from(${1:arrayLike}, ${2:mapFn});",
+        "description": "Array.from(arrayLike, mapFn)"
+    },
+    "Array Is Array": {
+        "prefix": "Aia",
+        "body": "Array.isArray(${1:value});",
+        "description": "Array.isArray(value)"
+    },
+    "Array Of": {
+        "prefix": "Ao",
+        "body": "Array.of(${1:items});",
+        "description": "Array.of(items)"
+    },
+    "Array Concat": {
+        "prefix": ".concat",
+        "body": ".concat(${1:items});",
+        "description": ".concat(items)"
+    },
+    "Array Copy Within": {
+        "prefix": ".copyWithin",
+        "body": ".copyWithin(${1:target}, ${2:start}, ${3:end});",
+        "description": ".copyWithin(target, start, end)"
+    },
+    "Array Entries": {
+        "prefix": ".entries",
+        "body": ".entries();",
+        "description": ".entries()"
+    },
+    "Array Every": {
+        "prefix": ".every",
+        "body": ".every((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".every((value, index, array) => {})"
+    },
+    "Array Fill": {
+        "prefix": ".fill",
+        "body": ".fill(${1:target}, ${2:start}, ${3:end});",
+        "description": ".fill(target, start, end)"
+    },
+    "Array Filter": {
+        "prefix": ".filter",
+        "body": ".filter((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".filter((value, index, array) => {})"
+    },
+    "Array Find": {
+        "prefix": ".find",
+        "body": ".find((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".find((value, index, array) => {})"
+    },
+    "Array Find Index": {
+        "prefix": ".findIndex",
+        "body": ".findIndex((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".findIndex((value, index, array) => {})"
+    },
+    "Array Flat": {
+        "prefix": ".flat",
+        "body": ".flat(${1:depth});",
+        "description": ".flat(depth)"
+    },
+    "Array Flat Map": {
+        "prefix": ".flatMap",
+        "body": ".flatMap((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".flatMap((value, index, array) => {})"
+    },
+    "Array For Each": {
+        "prefix": ".forEach",
+        "body": ".forEach((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".forEach((value, index, array) => {})"
+    },
+    "Array Includes": {
+        "prefix": ".includes",
+        "body": ".includes(${1:searchElement}, ${2:fromIndex});",
+        "description": ".includes(searchElement, fromIndex)"
+    },
+    "Array Index Of": {
+        "prefix": ".indexOf",
+        "body": ".indexOf(${1:searchElement}, ${2:fromIndex});",
+        "description": ".indexOf(searchElement, fromIndex)"
+    },
+    "Array Join": {
+        "prefix": ".join",
+        "body": ".join(${1:separator});",
+        "description": ".join(separator)"
+    },
+    "Array Keys": {
+        "prefix": ".keys",
+        "body": ".keys();",
+        "description": ".keys()"
+    },
+    "Array Last Index Of": {
+        "prefix": ".lastIndexOf",
+        "body": ".lastIndexOf(${1:searchElement}, ${2:fromIndex});",
+        "description": ".lastIndexOf(searchElement, fromIndex)"
+    },
+    "Array Map": {
+        "prefix": ".map",
+        "body": ".map((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".map((value, index, array) => {})"
+    },
+    "Array Pop": {
+        "prefix": ".pop",
+        "body": ".pop();",
+        "description": ".pop()"
+    },
+    "Array Push": {
+        "prefix": ".push",
+        "body": ".push(${1:value});",
+        "description": ".push(value)"
+    },
+    "Array Reduce": {
+        "prefix": ".reduce",
+        "body": ".reduce((${1:previousValue}, ${2:currentValue}, ${3:currentIndex}, ${4:array}) => {\n\t${0}\n}, ${5:initialValue});",
+        "description": ".reduce((previousValue, currentValue, currentIndex, array) => {}, initialValue)"
+    },
+    "Array Reduce Right": {
+        "prefix": ".reduceRight",
+        "body": ".reduceRight((${1:previousValue}, ${2:currentValue}, ${3:currentIndex}, ${4:array}) => {\n\t${0}\n}, ${5:initialValue});",
+        "description": ".reduceRight((previousValue, currentValue, currentIndex, array) => {}, initialValue)"
+    },
+    "Array Reverse": {
+        "prefix": ".reverse",
+        "body": ".reverse();",
+        "description": ".reverse()"
+    },
+    "Array Slice": {
+        "prefix": ".slice",
+        "body": ".slice(${1:start}, ${2:end});",
+        "description": ".slice(start, end)"
+    },
+    "Array Some": {
+        "prefix": ".some",
+        "body": ".some((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".some((value, index, array) => {})"
+    },
+    "Array Sort": {
+        "prefix": ".sort",
+        "body": ".sort((${1:a}, ${2:b}) => {\n\t${0}\n});",
+        "description": ".sort((a, b) => {})"
+    },
+    "Array Unshift": {
+        "prefix": ".unshift",
+        "body": ".unshift(${1:value});",
+        "description": ".unshift(value)"
+    },
+    "Array Values": {
+        "prefix": ".values",
+        "body": ".values();",
+        "description": ".values()"
+    }
+}
