@@ -1,8 +1,8 @@
 id = "html-css-js-snippets"
 name = "HTML + CSS + JS Snippets"
-version = "0.1.0"
+version = "0.0.1"
 schema_version = 1
-authors = ["hongducdev"]
+authors = ["hongducdev <contact.hongduc@gmail.com>"]
 description = "A collection of useful HTML, CSS and JS snippets to speed up your web development workflow."
 repository = "https://github.com/hongducdev/zed-html-css-js-snippets"
 snippets = ["./snippets/html.json", "./snippets/css.json", "./snippets/js.json"]
