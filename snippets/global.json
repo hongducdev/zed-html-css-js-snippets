@@ -1,0 +1,1046 @@
+{
+    "HTML Menu": {
+        "prefix": "html-menu",
+        "body": [
+            "<nav class=\"menu\">",
+            "    <ul class=\"menu-list\">",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Home</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">About</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Services</a></li>",
+            "        <li class=\"menu-item\"><a href=\"#\" class=\"menu-link\">Contact</a></li>",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "Display HTML for common menu layout"
+    },
+    "HTML Dropdown": {
+        "prefix": "html-dropdown",
+        "body": [
+            "<div class=\"dropdown\">",
+            "    <button class=\"dropdown-toggle\">Dropdown</button>",
+            "    <ul class=\"dropdown-menu\">",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 1</a></li>",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 2</a></li>",
+            "        <li class=\"dropdown-item\"><a href=\"#\" class=\"dropdown-link\">Item 3</a></li>",
+            "    </ul>",
+            "</div>"
+        ],
+        "description": "Display HTML for dropdown"
+    },
+    "HTML Modal": {
+        "prefix": "html-modal",
+        "body": [
+            "<div class=\"modal\" id=\"modal\">",
+            "    <div class=\"modal-overlay\"></div>",
+            "    <div class=\"modal-container\">",
+            "        <div class=\"modal-header\">",
+            "            <h3 class=\"modal-title\">Modal Title</h3>",
+            "            <button class=\"modal-close\">&times;</button>",
+            "        </div>",
+            "        <div class=\"modal-body\">",
+            "            <p>Modal content goes here</p>",
+            "        </div>",
+            "        <div class=\"modal-footer\">",
+            "            <button class=\"modal-cancel\">Cancel</button>",
+            "            <button class=\"modal-confirm\">Confirm</button>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for modal"
+    },
+    "HTML Tab": {
+        "prefix": "html-tab",
+        "body": [
+            "<div class=\"tabs\">",
+            "    <div class=\"tab-header\">",
+            "        <button class=\"tab-btn active\" data-tab=\"tab1\">Tab 1</button>",
+            "        <button class=\"tab-btn\" data-tab=\"tab2\">Tab 2</button>",
+            "        <button class=\"tab-btn\" data-tab=\"tab3\">Tab 3</button>",
+            "    </div>",
+            "    <div class=\"tab-content\">",
+            "        <div class=\"tab-pane active\" id=\"tab1\">",
+            "            <p>Tab 1 content</p>",
+            "        </div>",
+            "        <div class=\"tab-pane\" id=\"tab2\">",
+            "            <p>Tab 2 content</p>",
+            "        </div>",
+            "        <div class=\"tab-pane\" id=\"tab3\">",
+            "            <p>Tab 3 content</p>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for tab"
+    },
+    "HTML Accordion": {
+        "prefix": "html-accordion",
+        "body": [
+            "<div class=\"accordion\">",
+            "    <div class=\"accordion-item\">",
+            "        <button class=\"accordion-header\">",
+            "            Accordion Item 1",
+            "            <span class=\"accordion-icon\">+</span>",
+            "        </button>",
+            "        <div class=\"accordion-content\">",
+            "            <p>Accordion content 1</p>",
+            "        </div>",
+            "    </div>",
+            "    <div class=\"accordion-item\">",
+            "        <button class=\"accordion-header\">",
+            "            Accordion Item 2",
+            "            <span class=\"accordion-icon\">+</span>",
+            "        </button>",
+            "        <div class=\"accordion-content\">",
+            "            <p>Accordion content 2</p>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for accordion"
+    },
+    "HTML Link Wrap Image": {
+        "prefix": "html-linkwrap-img",
+        "body": [
+            "<a href=\"#\" class=\"img-link\">",
+            "    <img src=\"image.jpg\" alt=\"Image description\" class=\"img-fluid\">",
+            "</a>"
+        ],
+        "description": "Display HTML with a wrap img tag"
+    },
+    "HTML Search Form": {
+        "prefix": "html-search",
+        "body": [
+            "<form class=\"search-form\">",
+            "    <div class=\"search-input-wrapper\">",
+            "        <input type=\"search\" class=\"search-input\" placeholder=\"Search...\">",
+            "        <button type=\"submit\" class=\"search-btn\">",
+            "            <i class=\"search-icon\">🔍</i>",
+            "        </button>",
+            "    </div>",
+            "</form>"
+        ],
+        "description": "Display HTML for simple search form layout with icon"
+    },
+    "HTML Subscribe Form": {
+        "prefix": "html-subscribe-form",
+        "body": [
+            "<form class=\"subscribe-form\">",
+            "    <div class=\"form-group\">",
+            "        <input type=\"email\" class=\"form-input\" placeholder=\"Enter your email\">",
+            "        <button type=\"submit\" class=\"form-btn\">Subscribe</button>",
+            "    </div>",
+            "</form>"
+        ],
+        "description": "Display HTML for simple subscribe form layout"
+    },
+    "HTML List Item with Icon": {
+        "prefix": "html-list-item",
+        "body": [
+            "<div class=\"list-item\">",
+            "    <i class=\"list-icon\">📌</i>",
+            "    <span class=\"list-text\">List item text</span>",
+            "</div>"
+        ],
+        "description": "Display HTML for simple text with icon"
+    },
+    "HTML Footer Column": {
+        "prefix": "html-footer-column",
+        "body": [
+            "<div class=\"footer-column\">",
+            "    <h4 class=\"footer-title\">Column Title</h4>",
+            "    <ul class=\"footer-links\">",
+            "        <li><a href=\"#\">Link 1</a></li>",
+            "        <li><a href=\"#\">Link 2</a></li>",
+            "        <li><a href=\"#\">Link 3</a></li>",
+            "        <li><a href=\"#\">Link 4</a></li>",
+            "    </ul>",
+            "</div>"
+        ],
+        "description": "Display HTML for footer column with links"
+    },
+    "HTML Box Item": {
+        "prefix": "html-box-item",
+        "body": [
+            "<div class=\"box-item\">",
+            "    <div class=\"box-image\">",
+            "        <img src=\"image.jpg\" alt=\"Box image\">",
+            "    </div>",
+            "    <div class=\"box-content\">",
+            "        <h3 class=\"box-title\">Box Title</h3>",
+            "        <p class=\"box-description\">Box description text goes here</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Display HTML for common layout image title & description"
+    },
+    "HTML Slick CSS": {
+        "prefix": "html-slick-css",
+        "body": [
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>",
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css\"/>"
+        ],
+        "description": "Insert Slick CSS"
+    },
+    "HTML Favicon": {
+        "prefix": "html-favicon",
+        "body": [
+            "<link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">",
+            "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">",
+            "<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">",
+            "<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">",
+            "<link rel=\"manifest\" href=\"/site.webmanifest\">"
+        ],
+        "description": "Using favicon HTML"
+    },
+    "HTML Ionicons": {
+        "prefix": "html-ionicons",
+        "body": [
+            "<script type=\"module\" src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js\"></script>",
+            "<script nomodule src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js\"></script>"
+        ],
+        "description": "Insert ionicons"
+    },
+    "HTML Slick Slider": {
+        "prefix": "html-slick-slider",
+        "body": [
+            "<script type=\"text/javascript\" src=\"//code.jquery.com/jquery-1.11.0.min.js\"></script>",
+            "<script type=\"text/javascript\" src=\"//code.jquery.com/jquery-migrate-1.2.1.min.js\"></script>",
+            "<script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>",
+            "<script>",
+            "    $(document).ready(function(){",
+            "        $('.your-class').slick({",
+            "            dots: true,",
+            "            infinite: true,",
+            "            speed: 300,",
+            "            slidesToShow: 1,",
+            "            adaptiveHeight: true",
+            "        });",
+            "    });",
+            "</script>"
+        ],
+        "description": "Insert slick slider scripts"
+    },
+    "HTML Font Awesome": {
+        "prefix": "html-fontawesome",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\" integrity=\"sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
+        ],
+        "description": "Insert fontawesome icons"
+    },
+    "Height 100 View Height": {
+        "prefix": "100vh",
+        "body": "height: 100vh;",
+        "description": "Set the height to 100% of the viewport height"
+    },
+    "Width 100 Viewport Width": {
+        "prefix": "100vw",
+        "body": "width: 100vw;",
+        "description": "Set the width to 100% of the viewport width"
+    },
+    "Min Height 100 Viewport Height": {
+        "prefix": "min-h-100vh",
+        "body": "min-height: 100vh;",
+        "description": "Set the minimum height to 100% of the viewport height"
+    },
+    "Height Screen": {
+        "prefix": "h-screen",
+        "body": "height: 100vh;",
+        "description": "Height 100vh"
+    },
+    "Width Screen": {
+        "prefix": "w-screen",
+        "body": "width: 100vw;",
+        "description": "Width 100vw"
+    },
+    "Min Height Screen": {
+        "prefix": "min-h-screen",
+        "body": "min-height: 100vh;",
+        "description": "Min height 100vh"
+    },
+    "Beautiful Box Shadow 1": {
+        "prefix": "get-shadow1",
+        "body": "box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;",
+        "description": "Beautiful box-shadow type 1 from getcssscan"
+    },
+    "Beautiful Box Shadow 2": {
+        "prefix": "get-shadow2",
+        "body": "box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+        "description": "Beautiful box-shadow type 2 from getcssscan"
+    },
+    "Beautiful Box Shadow 3": {
+        "prefix": "get-shadow3",
+        "body": "box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;",
+        "description": "Beautiful box-shadow type 3 from getcssscan"
+    },
+    "Beautiful Box Shadow 4": {
+        "prefix": "get-shadow4",
+        "body": "box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;",
+        "description": "Beautiful box-shadow type 4 from getcssscan"
+    },
+    "Beautiful Box Shadow 5": {
+        "prefix": "get-shadow5",
+        "body": "box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;",
+        "description": "Beautiful box-shadow type 5 from getcssscan"
+    },
+    "Center with display block": {
+        "prefix": "center-block",
+        "body": "display: block;margin: 0 auto;",
+        "description": "Center an element with display block"
+    },
+    "Center with display inline-block": {
+        "prefix": "center-inline-block",
+        "body": "display: inline-block;position: relative;left: 50%;transform: translateX(-50%);",
+        "description": "Center an element with display inline-block"
+    },
+    "Center with display inline": {
+        "prefix": "center-inline",
+        "body": "display: inline-block;position: relative;left: 50%;transform: translateX(-50%);",
+        "description": "Center with display inline-block"
+    },
+    "Center with display flex": {
+        "prefix": "center-flex",
+        "body": "display: flex;justify-content: center;align-items: center;",
+        "description": "Center an element with display flex"
+    },
+    "Center thing with flexbox": {
+        "prefix": "flex-center",
+        "body": "display: flex;justify-content: center;align-items: center;",
+        "description": "Center thing with flexbox"
+    },
+    "Center flexbox column direction": {
+        "prefix": "center-flex-column",
+        "body": "display: flex;flex-direction: column;justify-content: center;align-items: center;",
+        "description": "Center an element with flexbox column direction"
+    },
+    "Center flexbox column": {
+        "prefix": "flex-centerc",
+        "body": "display: flex;flex-direction: column;justify-content: center;align-items: center;",
+        "description": "Center flexbox column direction"
+    },
+    "Center with display grid": {
+        "prefix": "center-grid",
+        "body": "display: grid;place-items: center;",
+        "description": "Center an element with display grid"
+    },
+    "Center with css grid": {
+        "prefix": "grid-center",
+        "body": "display: grid;place-items: center;",
+        "description": "Center with css grid"
+    },
+    "Using for image when make layout row direction with flexbox": {
+        "prefix": "flex-row-image",
+        "body": "display: flex;flex-direction: row;align-items: center;",
+        "description": "Using for image when make layout row direction with flexbox"
+    },
+    "Flex image": {
+        "prefix": "flex-image",
+        "body": "display: flex;flex-direction: row;align-items: center;",
+        "description": "Using for image when make layout row direction with flexbox"
+    },
+    "Flex direction column": {
+        "prefix": "flex-column",
+        "body": "display: flex;flex-direction: column;",
+        "description": "Set the flex direction to column"
+    },
+    "Flex direction column short": {
+        "prefix": "flex-col",
+        "body": "display: flex;flex-direction: column;",
+        "description": "Flex direction column"
+    },
+    "Flex direction row": {
+        "prefix": "flex-row",
+        "body": "display: flex;flex-direction: row;",
+        "description": "Set the flex direction to row"
+    },
+    "Flexbox align items center": {
+        "prefix": "facenter",
+        "body": "display: flex;align-items: center;",
+        "description": "Flexbox align-items: center"
+    },
+    "Center top and left with position absolute": {
+        "prefix": "abs-center",
+        "body": "position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Center left with absolute": {
+        "prefix": "abs-centerx",
+        "body": "position: absolute;left: 50%;transform: translateX(-50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Center top with absolute": {
+        "prefix": "abs-centery",
+        "body": "position: absolute;top: 50%;transform: translateY(-50%);",
+        "description": "Center an element with position absolute"
+    },
+    "Position absolute full": {
+        "prefix": "abs-full",
+        "body": "position: absolute;top: 0;left: 0;right: 0;bottom: 0;",
+        "description": "Position absolute full base on parent"
+    },
+    "Position fixed full": {
+        "prefix": "fixed-full",
+        "body": "position: fixed;top: 0;left: 0;right: 0;bottom: 0;",
+        "description": "Position fixed full"
+    },
+    "Position absolute top left": {
+        "prefix": "abs-top-left",
+        "body": "position: absolute;top: 0;left: 0;",
+        "description": "Position absolute top left"
+    },
+    "Position absolute top right": {
+        "prefix": "abs-top-right",
+        "body": "position: absolute;top: 0;right: 0;",
+        "description": "Position absolute top right"
+    },
+    "Position absolute bottom left": {
+        "prefix": "abs-bottom-left",
+        "body": "position: absolute;bottom: 0;left: 0;",
+        "description": "Position absolute bottom left"
+    },
+    "Position absolute bottom right": {
+        "prefix": "abs-bottom-right",
+        "body": "position: absolute;bottom: 0;right: 0;",
+        "description": "Position absolute bottom right"
+    },
+    "Position absolute full width": {
+        "prefix": "abs-full-width",
+        "body": "position: absolute;left: 0;right: 0;",
+        "description": "Position absolute full width"
+    },
+    "Position absolute full height": {
+        "prefix": "abs-full-height",
+        "body": "position: absolute;top: 0;bottom: 0;",
+        "description": "Position absolute full height"
+    },
+    "Absolute dropdown": {
+        "prefix": "abs-dropdown",
+        "body": "position: absolute;top: 100%;left: 0;z-index: 1000;",
+        "description": "Using when you make dropdown list absolute or dropdown menu when parent have position property"
+    },
+    "Text overflow multiple lines with three dots...": {
+        "prefix": "text-truncate",
+        "body": "display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;",
+        "description": "Text overflow multiple lines with three dots..."
+    },
+    "Text overflow single line with threed dots...": {
+        "prefix": "text-single",
+        "body": "display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;",
+        "description": "Text overflow single line with threed dots..."
+    },
+    "Useful css for text": {
+        "prefix": "text-style",
+        "body": "font-size: 16px;line-height: 1.5;color: #333;",
+        "description": "Useful css for text"
+    },
+    "Text gradient": {
+        "prefix": "text-gradient",
+        "body": "color: transparent;background-clip: text;-webkit-background-clip: text;background-image: linear-gradient( to right,  #,  #);",
+        "description": "Text gradient"
+    },
+    "Create text gradient": {
+        "prefix": "text-gradient",
+        "body": "background: linear-gradient(45deg, #ff6b6b, #4ecdc4);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;",
+        "description": "Create text gradient"
+    },
+    "Useful flexbox layout column": {
+        "prefix": "flex-layout",
+        "body": "display: flex;flex-direction: column;gap: 1rem;",
+        "description": "Useful when making flexbox layout column"
+    },
+    "Grid layout": {
+        "prefix": "grid-layout",
+        "body": "display: grid;grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));gap: 1rem;",
+        "description": "Another way to making layout fast with css grid"
+    },
+    "Overflow hidden": {
+        "prefix": "ohidden",
+        "body": "overflow: hidden;",
+        "description": "Overflow hidden"
+    },
+    "Overflow x hidden": {
+        "prefix": "xhidden",
+        "body": "overflow-x: hidden;",
+        "description": "Overflow x hidden"
+    },
+    "Overflow y hidden": {
+        "prefix": "yhidden",
+        "body": "overflow-y: hidden;",
+        "description": "Overflow y hidden"
+    },
+    "Overflow x auto": {
+        "prefix": "xauto",
+        "body": "overflow-x: auto;",
+        "description": "Overflow x auto"
+    },
+    "Overflow y auto": {
+        "prefix": "yauto",
+        "body": "overflow-y: auto;",
+        "description": "Overflow y auto"
+    },
+    "Text transform uppercase": {
+        "prefix": "uppercase",
+        "body": "text-transform: uppercase;",
+        "description": "Text transform to UPPERCASE"
+    },
+    "Text transform lowercase": {
+        "prefix": "lowercase",
+        "body": "text-transform: lowercase;",
+        "description": "Text transform to lowercase"
+    },
+    "Text transform capitalize": {
+        "prefix": "capitalize",
+        "body": "text-transform: capitalize;",
+        "description": "Text transform to Capitalize"
+    },
+    "Make text bold": {
+        "prefix": "bold",
+        "body": "font-weight: bold;",
+        "description": "Make text bold"
+    },
+    "Make text italic": {
+        "prefix": "italic",
+        "body": "font-style: italic;",
+        "description": "Make text italic"
+    },
+    "Media screen max width 1279px": {
+        "prefix": "@1279",
+        "body": "@media screen and (max-width: 1279px) {\n\t$0\n}",
+        "description": "Media screen and max width 1279px"
+    },
+    "Media screen max width 1023px": {
+        "prefix": "@1023",
+        "body": "@media screen and (max-width: 1023px) {\n\t$0\n}",
+        "description": "Media screen and max width 1023px"
+    },
+    "Media screen max width 767px": {
+        "prefix": "@767",
+        "body": "@media screen and (max-width: 767px) {\n\t$0\n}",
+        "description": "Media screen and max width 767px"
+    },
+    "Media screen min width 768px": {
+        "prefix": "@768",
+        "body": "@media screen and (min-width: 768px) {\n\t$0\n}",
+        "description": "Media screen and min width 768px"
+    },
+    "Media screen min width 1024px": {
+        "prefix": "@1024",
+        "body": "@media screen and (min-width: 1024px) {\n\t$0\n}",
+        "description": "Media screen and min width 1024px"
+    },
+    "Media screen min width 1280px": {
+        "prefix": "@1280",
+        "body": "@media screen and (min-width: 1280px) {\n\t$0\n}",
+        "description": "Media screen and min width 1280px"
+    },
+    "Media query max width": {
+        "prefix": "@max-w",
+        "body": "@media screen and (max-width: ${1:768px}) {\n\t$0\n}",
+        "description": "Media query for max-width"
+    },
+    "Media query min width": {
+        "prefix": "@min-w",
+        "body": "@media screen and (min-width: ${1:768px}) {\n\t$0\n}",
+        "description": "Media query for min-width"
+    },
+    "Media query hover": {
+        "prefix": "@hover",
+        "body": "@media (hover: hover) {\n\t$0\n}",
+        "description": "Media query for hover"
+    },
+    "Media query light mode": {
+        "prefix": "@light-mode",
+        "body": "@media (prefers-color-scheme: light) {\n\t$0\n}",
+        "description": "Media query for light mode"
+    },
+    "Media query dark mode": {
+        "prefix": "@dark-mode",
+        "body": "@media (prefers-color-scheme: dark) {\n\t$0\n}",
+        "description": "Media query for dark mode"
+    },
+    "Media query reduce animation": {
+        "prefix": "@reduce-animation",
+        "body": "@media (prefers-reduced-motion: reduce) {\n\t$0\n}",
+        "description": "Media query for reduce animation"
+    },
+    "Some useful css reset code when you start coding css": {
+        "prefix": "css-reset",
+        "body": "*,*:before,*:after {box-sizing: border-box;}* {margin: 0;padding: 0;font: inherit;}img,picture,svg,video {display: block;max-width: 100%;}input,select,textarea {background-color: transparent;outline: none;}button {cursor: pointer;background-color: transparent;outline: none;border: 0;}body {min-height: 100vh;font-weight: 400;font-size: 16px;line-height: 1;}",
+        "description": "Some useful css reset code when you start coding css"
+    },
+    "Hide scrollbar": {
+        "prefix": "scrollbar-hidden",
+        "body": "scrollbar-width: none;-ms-overflow-style: none;\n&::-webkit-scrollbar {\n\tdisplay: none;\n}",
+        "description": "Just hide scrollbar"
+    },
+    "Hide input spinner": {
+        "prefix": "input-hide-spinner",
+        "body": "&::-webkit-outer-spin-button,\n&::-webkit-inner-spin-button {\n\t-webkit-appearance: none;\n\tmargin: 0;\n}\n&[type=number] {\n\t-moz-appearance: textfield;\n}",
+        "description": "Hide input spin with input[type=\"number\"]"
+    },
+    "Input placeholder color": {
+        "prefix": "input-placeholder",
+        "body": "&::placeholder {\n\tcolor: #999;\n}",
+        "description": "Change input placeholder color"
+    },
+    "Input caret color": {
+        "prefix": "input-caret-color",
+        "body": "caret-color: #007bff;",
+        "description": "Change input caret color"
+    },
+    "Responsive image": {
+        "prefix": "img-responsive",
+        "body": "width: 100%;height: auto;aspect-ratio: 16/9;object-fit: cover;",
+        "description": "Responsive image by ratio"
+    },
+    "Image cover full": {
+        "prefix": "img-cover",
+        "body": "width: 100%;height: 100%;object-fit: cover;",
+        "description": "Image cover full"
+    },
+    "Grid scroll snap": {
+        "prefix": "grid-scroll-snap",
+        "body": "scroll-snap-type: x mandatory;overflow-x: auto;\n& > * {\n\tscroll-snap-align: start;\n}",
+        "description": "Apply css scroll snap useful when making simple slider with only css"
+    },
+    "Modal style": {
+        "prefix": "modal-style",
+        "body": "position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);display: flex;justify-content: center;align-items: center;z-index: 1000;",
+        "description": "CSS for common modal"
+    },
+    "Hide element to use transition effect later with css-show": {
+        "prefix": "css-hide",
+        "body": "opacity: 0;visibility: hidden;transition: all 0.2s ease;",
+        "description": "Hide element to use transition effect later with css-show"
+    },
+    "Show element to use transition effect later with css-show": {
+        "prefix": "css-show",
+        "body": "opacity: 1;visibility: visible;transition: all 0.2s ease;",
+        "description": "Show element to use transition effect later with css-show"
+    },
+    "CSS background linear gradient": {
+        "prefix": "linear-gradient",
+        "body": "background: linear-gradient(${1:45deg}, ${2:#ff6b6b}, ${3:#4ecdc4});",
+        "description": "CSS background linear gradient"
+    },
+    "CSS supports rule": {
+        "prefix": "@supports",
+        "body": "@supports (${1:property}: ${2:value}) {\n\t$0\n}",
+        "description": "Support rule in css for properties did not support for most browsers"
+    },
+    "CSS keyframes animation": {
+        "prefix": "@keyframes",
+        "body": "@keyframes ${1:animationName} {\n\t0% {\n\t\t$2\n\t}\n\t100% {\n\t\t$3\n\t}\n}",
+        "description": "Keyframes animation"
+    },
+    "Custom scrollbar style": {
+        "prefix": "scrollbar-style",
+        "body": "&::-webkit-scrollbar {\n\twidth: 8px;\n}\n&::-webkit-scrollbar-track {\n\tbackground: #f1f1f1;\n}\n&::-webkit-scrollbar-thumb {\n\tbackground: #888;\n\tborder-radius: 4px;\n}\n&::-webkit-scrollbar-thumb:hover {\n\tbackground: #555;\n}",
+        "description": "Custom scrollbar style"
+    },
+    "Create fast square": {
+        "prefix": "square",
+        "body": "width: ${1:100px};height: ${1:100px};",
+        "description": "Create fast square"
+    },
+    "Create fast rectangle": {
+        "prefix": "rect",
+        "body": "width: ${1:200px};height: ${2:100px};",
+        "description": "Create fast rectangle"
+    },
+    "Create fast circle": {
+        "prefix": "circle",
+        "body": "width: ${1:100px};height: ${1:100px};border-radius: 50%;",
+        "description": "Create fast circle"
+    },
+    "Make width full": {
+        "prefix": "wfull",
+        "body": "width: 100%;",
+        "description": "Make width full 100%"
+    },
+    "Make height full": {
+        "prefix": "hfull",
+        "body": "height: 100%;",
+        "description": "Make height full 100%"
+    },
+    "Make width and height full": {
+        "prefix": "sfull",
+        "body": "width: 100%;height: 100%;",
+        "description": "Make width and height full 100%"
+    },
+    "Remove tap highlight": {
+        "prefix": "tap-highlight",
+        "body": "-webkit-tap-highlight-color: transparent;",
+        "description": "Remove tap highlight color"
+    },
+    "Make text smooth": {
+        "prefix": "text-smooth",
+        "body": "-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;",
+        "description": "Make text smooth"
+    },
+    "Make scroll smooth": {
+        "prefix": "scroll-smooth",
+        "body": "scroll-behavior: smooth;",
+        "description": "Make scroll smooth"
+    },
+    "Overscroll vertical": {
+        "prefix": "overscroll-y",
+        "body": "overscroll-behavior-y: contain;",
+        "description": "Using overscroll vertical"
+    },
+    "Overscroll horizontal": {
+        "prefix": "overscroll-x",
+        "body": "overscroll-behavior-x: contain;",
+        "description": "Using overscroll horizontal"
+    },
+    "Text stroke styles": {
+        "prefix": "text-stroke",
+        "body": "-webkit-text-stroke: ${1:1px} ${2:#000};",
+        "description": "Text stroke styles"
+    },
+    "Hyphens auto": {
+        "prefix": "hyphen-auto",
+        "body": "hyphens: auto;",
+        "description": "Hyphens auto"
+    },
+    "Break word for long word": {
+        "prefix": "break-word",
+        "body": "word-break: break-word;",
+        "description": "Break word for long word"
+    },
+    "Break all for long word": {
+        "prefix": "break-all",
+        "body": "word-break: break-all;",
+        "description": "Break all for long word"
+    },
+    "Using aspect ratio number": {
+        "prefix": "ratio-number",
+        "body": "aspect-ratio: ${1:16/9};",
+        "description": "Using aspect-ratio"
+    },
+    "Using ratio with padding hacks": {
+        "prefix": "ratio-calc",
+        "body": "position: relative;width: 100%;\n&::before {\n\tcontent: '';\n\tdisplay: block;\n\tpadding-top: ${1:56.25%};\n}\n& > * {\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n}",
+        "description": "Using ratio with padding hacks"
+    },
+    "Using ratio 16/9": {
+        "prefix": "ratio-video",
+        "body": "aspect-ratio: 16/9;",
+        "description": "Using ratio with 16/9"
+    },
+    "Using ratio 1/1": {
+        "prefix": "ratio-square",
+        "body": "aspect-ratio: 1/1;",
+        "description": "Using ratio with 1/1"
+    },
+    "Background size cover": {
+        "prefix": "bg-cover",
+        "body": "background-size: cover;background-position: center;background-repeat: no-repeat;",
+        "description": "Background size cover"
+    },
+    "Object fit cover": {
+        "prefix": "object-cover",
+        "body": "object-fit: cover;",
+        "description": "Using object-fit: cover"
+    },
+    "Object fit fill": {
+        "prefix": "object-fill",
+        "body": "object-fit: fill;",
+        "description": "Using object-fit: fill"
+    },
+    "Width min content": {
+        "prefix": "w-min",
+        "body": "width: min-content;",
+        "description": "Width min-content"
+    },
+    "Width max content": {
+        "prefix": "w-max",
+        "body": "width: max-content;",
+        "description": "Width max-content"
+    },
+    "Width fit content": {
+        "prefix": "w-fit",
+        "body": "width: fit-content;",
+        "description": "Width fit-content"
+    },
+    "Center with margin": {
+        "prefix": "mx-auto",
+        "body": "margin-left: auto;margin-right: auto;",
+        "description": "Center with margin"
+    },
+    "Flex shrink 0": {
+        "prefix": "shrink0",
+        "body": "flex-shrink: 0;",
+        "description": "Using flex-shrink: 0"
+    },
+    "Make border none": {
+        "prefix": "border-none",
+        "body": "border: none;",
+        "description": "Make border none"
+    },
+    "Make outline none": {
+        "prefix": "outline-none",
+        "body": "outline: none;",
+        "description": "Make outline none"
+    },
+    "Common line height": {
+        "prefix": "leading-",
+        "body": "line-height: ${1:1.5};",
+        "description": "Common line-height"
+    },
+    "Text align": {
+        "prefix": "text-",
+        "body": "text-align: ${1:center};",
+        "description": "Text align"
+    },
+    "Cursor pointer": {
+        "prefix": "pointer",
+        "body": "cursor: pointer;",
+        "description": "Cursor pointer"
+    },
+    "Pointer events none": {
+        "prefix": "pointer-none",
+        "body": "pointer-events: none;",
+        "description": "Pointer events none"
+    },
+    "Console Assert": {
+        "prefix": "ca",
+        "body": "console.assert(${1:condition}, ${2:message});",
+        "description": "console.assert(condition, message)"
+    },
+    "Console Clear": {
+        "prefix": "ccl",
+        "body": "console.clear();",
+        "description": "console.clear()"
+    },
+    "Console Count": {
+        "prefix": "cc",
+        "body": "console.count(${1:label});",
+        "description": "console.count(label)"
+    },
+    "Console Count Reset": {
+        "prefix": "ccr",
+        "body": "console.countReset(${1:label});",
+        "description": "console.countReset(label)"
+    },
+    "Console Debug": {
+        "prefix": "cdb",
+        "body": "console.debug(${1:message});",
+        "description": "console.debug(message)"
+    },
+    "Console Dir": {
+        "prefix": "cd",
+        "body": "console.dir(${1:value});",
+        "description": "console.dir(value)"
+    },
+    "Console Dir XML": {
+        "prefix": "cdx",
+        "body": "console.dirxml(${1:object});",
+        "description": "console.dirxml(object)"
+    },
+    "Console Error": {
+        "prefix": "ce",
+        "body": "console.error(${1:message});",
+        "description": "console.error(message)"
+    },
+    "Console Group": {
+        "prefix": "cg",
+        "body": "console.group(${1:groupTitle});",
+        "description": "console.group(groupTitle)"
+    },
+    "Console Group Collapsed": {
+        "prefix": "cgc",
+        "body": "console.groupCollapsed(${1:groupTitle});",
+        "description": "console.groupCollapsed(groupTitle)"
+    },
+    "Console Group End": {
+        "prefix": "cge",
+        "body": "console.groupEnd();",
+        "description": "console.groupEnd()"
+    },
+    "Console Info": {
+        "prefix": "ci",
+        "body": "console.info(${1:message});",
+        "description": "console.info(message)"
+    },
+    "Console Log": {
+        "prefix": "cl",
+        "body": "console.log(${1:message});",
+        "description": "console.log(message)"
+    },
+    "Console Table": {
+        "prefix": "ctb",
+        "body": "console.table(${1:tabularData});",
+        "description": "console.table(tabularData)"
+    },
+    "Console Time": {
+        "prefix": "ct",
+        "body": "console.time(${1:label});",
+        "description": "console.time(label)"
+    },
+    "Console Time End": {
+        "prefix": "cte",
+        "body": "console.timeEnd(${1:label});",
+        "description": "console.timeEnd(label)"
+    },
+    "Console Trace": {
+        "prefix": "ctr",
+        "body": "console.trace(${1:message});",
+        "description": "console.trace(message)"
+    },
+    "Console Warn": {
+        "prefix": "cw",
+        "body": "console.warn(${1:message});",
+        "description": "console.warn(message)"
+    },
+    "Array From": {
+        "prefix": "Af",
+        "body": "Array.from(${1:arrayLike}, ${2:mapFn});",
+        "description": "Array.from(arrayLike, mapFn)"
+    },
+    "Array Is Array": {
+        "prefix": "Aia",
+        "body": "Array.isArray(${1:value});",
+        "description": "Array.isArray(value)"
+    },
+    "Array Of": {
+        "prefix": "Ao",
+        "body": "Array.of(${1:items});",
+        "description": "Array.of(items)"
+    },
+    "Array Concat": {
+        "prefix": ".concat",
+        "body": ".concat(${1:items});",
+        "description": ".concat(items)"
+    },
+    "Array Copy Within": {
+        "prefix": ".copyWithin",
+        "body": ".copyWithin(${1:target}, ${2:start}, ${3:end});",
+        "description": ".copyWithin(target, start, end)"
+    },
+    "Array Entries": {
+        "prefix": ".entries",
+        "body": ".entries();",
+        "description": ".entries()"
+    },
+    "Array Every": {
+        "prefix": ".every",
+        "body": ".every((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".every((value, index, array) => {})"
+    },
+    "Array Fill": {
+        "prefix": ".fill",
+        "body": ".fill(${1:target}, ${2:start}, ${3:end});",
+        "description": ".fill(target, start, end)"
+    },
+    "Array Filter": {
+        "prefix": ".filter",
+        "body": ".filter((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".filter((value, index, array) => {})"
+    },
+    "Array Find": {
+        "prefix": ".find",
+        "body": ".find((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".find((value, index, array) => {})"
+    },
+    "Array Find Index": {
+        "prefix": ".findIndex",
+        "body": ".findIndex((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".findIndex((value, index, array) => {})"
+    },
+    "Array Flat": {
+        "prefix": ".flat",
+        "body": ".flat(${1:depth});",
+        "description": ".flat(depth)"
+    },
+    "Array Flat Map": {
+        "prefix": ".flatMap",
+        "body": ".flatMap((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".flatMap((value, index, array) => {})"
+    },
+    "Array For Each": {
+        "prefix": ".forEach",
+        "body": ".forEach((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".forEach((value, index, array) => {})"
+    },
+    "Array Includes": {
+        "prefix": ".includes",
+        "body": ".includes(${1:searchElement}, ${2:fromIndex});",
+        "description": ".includes(searchElement, fromIndex)"
+    },
+    "Array Index Of": {
+        "prefix": ".indexOf",
+        "body": ".indexOf(${1:searchElement}, ${2:fromIndex});",
+        "description": ".indexOf(searchElement, fromIndex)"
+    },
+    "Array Join": {
+        "prefix": ".join",
+        "body": ".join(${1:separator});",
+        "description": ".join(separator)"
+    },
+    "Array Keys": {
+        "prefix": ".keys",
+        "body": ".keys();",
+        "description": ".keys()"
+    },
+    "Array Last Index Of": {
+        "prefix": ".lastIndexOf",
+        "body": ".lastIndexOf(${1:searchElement}, ${2:fromIndex});",
+        "description": ".lastIndexOf(searchElement, fromIndex)"
+    },
+    "Array Map": {
+        "prefix": ".map",
+        "body": ".map((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".map((value, index, array) => {})"
+    },
+    "Array Pop": {
+        "prefix": ".pop",
+        "body": ".pop();",
+        "description": ".pop()"
+    },
+    "Array Push": {
+        "prefix": ".push",
+        "body": ".push(${1:value});",
+        "description": ".push(value)"
+    },
+    "Array Reduce": {
+        "prefix": ".reduce",
+        "body": ".reduce((${1:previousValue}, ${2:currentValue}, ${3:currentIndex}, ${4:array}) => {\n\t${0}\n}, ${5:initialValue});",
+        "description": ".reduce((previousValue, currentValue, currentIndex, array) => {}, initialValue)"
+    },
+    "Array Reduce Right": {
+        "prefix": ".reduceRight",
+        "body": ".reduceRight((${1:previousValue}, ${2:currentValue}, ${3:currentIndex}, ${4:array}) => {\n\t${0}\n}, ${5:initialValue});",
+        "description": ".reduceRight((previousValue, currentValue, currentIndex, array) => {}, initialValue)"
+    },
+    "Array Reverse": {
+        "prefix": ".reverse",
+        "body": ".reverse();",
+        "description": ".reverse()"
+    },
+    "Array Slice": {
+        "prefix": ".slice",
+        "body": ".slice(${1:start}, ${2:end});",
+        "description": ".slice(start, end)"
+    },
+    "Array Some": {
+        "prefix": ".some",
+        "body": ".some((${1:value}, ${2:index}, ${3:array}) => {\n\t${0}\n});",
+        "description": ".some((value, index, array) => {})"
+    },
+    "Array Sort": {
+        "prefix": ".sort",
+        "body": ".sort((${1:a}, ${2:b}) => {\n\t${0}\n});",
+        "description": ".sort((a, b) => {})"
+    },
+    "Array Unshift": {
+        "prefix": ".unshift",
+        "body": ".unshift(${1:value});",
+        "description": ".unshift(value)"
+    },
+    "Array Values": {
+        "prefix": ".values",
+        "body": ".values();",
+        "description": ".values()"
+    }
+}
